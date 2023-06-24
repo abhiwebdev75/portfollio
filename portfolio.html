@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinash - portfolio</title>
+    <link rel="shortcut icon" href="img/icon.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio.css">
+
+    <script src="portfolio.js"></script>
+</head>
+
+<body onload="r()">
+    <div id="loader"></div>
+    <div id="video">
+        <video autoplay loop muted>
+            <source src="" type="video/mp4">
+        </video>
+    </div>
+    <header>
+        <nav>
+            <div class="name"><span style="margin-top: 10px;"><img src="img/icon.jpg" alt="icon" height="40px" id="headicon"></span>
+                &nbsp &nbsp ABHINASH &nbsp <span>DEV</span></div>
+            <button class="btn">BUY NOW</button>
+            </div>
+        </nav>
+    </header>
+    <div class="menu"> <input type="checkbox" id="menus" onchange="side()">
+        <label for="menus" class="menu-icon"><i class="fa fa-light fa-bars fa-2x" style="color:aliceblue"></i></label>
+    </div>
+    <div id="settings"><input type="checkbox" id="set" onchange="setting()">
+        <label for="set" class="set-icon"><img src="\img\icons8-settings-50.png" id="settings" height="30px"></label>
+    </div>
+        <div id="theme">
+            <h3>COLOR THEME</h3><br>
+            <div class="themecolor">
+                <div id="red" onclick="red()">
+
+                </div>
+                <div id="green" onclick="green()">
+    
+                </div>
+                <div id="sky" onclick="sky()">
+    
+                </div>
+                <div id="yellow" onclick="yellow()">
+    
+                </div>
+                <div id="orange" onclick="orange()">
+    
+                </div>
+                <div id="peach" onclick="peach( )">
+    
+                </div>
+            </div>
+            <div id="backvideo">
+                <h2 onclick="video1()">Lines</h2>
+                <br>
+                <h2 onclick="video2()">Strings</h2>
+                <br>
+                <h2 onclick="video3()">Water Ripples</h2>
+                <br>
+                <h2 onclick="video4()">spectra</h2>
+            </div>
+        
+    </div>
+    <div class="container">
+    
+    <div class="head">
+        <h1>ABHINASH &nbsp</h1>
+        <h3>Full Stack Developer & Designer</h3>
+    </div>
+    <div class="myimg">
+        <img src="/img/DSC_0752.JPG" alt="abhinash" height="200px" width="250px">
+    </div>
+    <span>hello @ abhinash.dev</span><br>
+    <span>Base in Hamirpur,HP</span><br><br>
+    <span id="min">@ 2023 Abhi. All Rights Reserved</span>
+    <div class="social">
+        <div class="twitter"><i class="fa fa-twitter fa-2x"></i></div>
+        <div class="facebook"><i class="fa fa-facebook fa-2x"></i></div>
+        <div class="instagram"><i class="fa fa-instagram fa-2x"></i></div>
+        <div class="linkedin"><i class="fa fa-linkedin fa-2x"></i></div>
+    </div>
+    <div class="hirebtn">
+        <button class="hire" id="hire">&nbsp HIRE ME!</button>
+    </div>
+    </div>
+
+    <section class="page1" id="introduce" data-aos="fade-down">
+        <button class="negobtn" data-aos="fade-down"> <i class="fa fa-home fa-2x"></i> Introduce </button>
+        <h1>Say Hi From <span>Abhi,</span> Full Stack Designer and Developer</h1>
+        <h3>I design and develop code beutifully simple things and i love what i do Just simple like that!</h3>
+        <div class="rimg">
+            <div class="rotatedimg">
+                <i class="fa fa-2x fa-arrow-down" id="special"></i>
+                <img src="img\round-text.png" alt="ROUNDED" height="150px" width="150px">
+            </div>
+            <div class="facts">
+                <div class="factl" data-aos="fade-right">
+                    <h1>2+</h1>
+                    <p>Years of <br>Experience</p>
+                </div>
+                <div class="factr" data-aos="fade-left">
+                    <h1>29+</h1>
+                    <p>High level <br>projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="page2">
+        <button class="negobtn" data-aos="fade-up"> <i class="fa fa-user fa-2x"></i> About </button>
+        <h1 data-aos="fade-up">Every great design begin with
+            an even <span> better story </span></h1>
+        <p data-aos="fade-up">Since beginning my journey as a freelance designer nearly 8 years ago, I've done remote
+            work for agencies, consulted for startups, and collaborated with talented people to create digital products
+            for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on
+            improving my chopsone design problem at a time.</p>
+    </section>
+    <br><br><br><br>
+    <br><br><br><br>
+    <section id="resume" class="page3">
+        <button class="nego" data-aos="fade-up"> <i class="fa fa-address-book fa-2x"></i> Resume </button>
+
+        <h1>Education & <span>Experience</span></h1>
+        <div class="wrap-items">
+            <div class="item" data-aos="fade-left">
+                <h3>2023-Present</h3>
+                <h1>Understanding concepts of language</h1>
+                <h5>JAVASCRIPT</h5>
+                <h1>Front-End Developer</h1>
+                <h5>HTML , CSS , JS</h5>
+            </div>
+            <div class="item" data-aos="fade-right">
+                <h3>2021-24</h3>
+                <h1>Bachelor Degree of Computer Applications (BCA)</h1>
+                <h5>NSCBM</h5>
+            </div>
+
+            <div class="item" data-aos="fade-left">
+                <h3>2021-2023</h3>
+                <h1>Studing Concepts of Web Technologies</h1>
+                <h5>INTERNET</h5>
+                <h1>Front-End Designer</h1>
+                <h5>HTML , CSS , JS</h5>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <section id="services" class="page4">
+        <button class="nego" data-aos="fade-up"> <i class="fa fa-address-card fa-2x"></i> Services </button>
+        <h1>My <span>Specialization</span></h1>
+        <div class="divwrapper">
+            <div data-aos="fade-right">
+                <h2>
+                    Website Design
+                </h2>
+                <h3>I created digital Products with unique ideas using react.js</h3>
+                <br>
+                <h4><b>7 Projects</b> </h4>
+            </div>
+            <div data-aos="fade-left">
+                <h2>
+                    Development
+                </h2>
+                <h3>I build website go live with real time server.</h3>
+                <br>
+                <h4><b>12 Projects</b> </h4>
+            </div>
+            <div data-aos="fade-right">
+                <h2>
+                    SEO/Marketing
+                </h2>
+                <h3>Increase the traffic for your website with SEO optimized</h3>
+                <br>
+                <h4><b>9 Projects</b> </h4>
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="page5">
+        <button class="nego" data-aos="fade-up"> <i class="fa fa-snowflake-o fa-2x"></i> Skills </button>
+        <h1>My <span>Advantages</span></h1>
+        <div class="flexxer">
+            <div class="big" data-aos="fade-right">
+                <div>
+                    <div class="img">
+                        <img src="img/html5-logo-31813.png" alt="html5" height="80px">
+                    </div>
+                    <div class="process">91%</div>
+                </div>
+                <h4>HTML</h4>
+            </div>
+            <div class="big" data-aos="fade-down">
+                <div>
+                    <div class="img">
+                        <img src="img/html5-logo-31822.png" alt="css" height="80px">
+                    </div>
+                    <div class="process">79%</div>
+                </div>
+                <h4>CSS</h4>
+            </div>
+            <div class="big" data-aos="fade-up">
+                <div>
+                    <div class="img">
+                        <img src="img/pngwing.com (1).png" alt="js" height="80px">
+                    </div>
+                    <div class="process">71%</div>
+                </div>
+                <h4>JAVASCRIPT</h4>
+            </div>
+            <div class="big" data-aos="fade-left">
+                <div>
+                    <div class="img">
+                        <img src="img/react.png" alt="react" height="80px">
+                    </div>
+                    <div class="process">77%</div>
+                </div>
+                <h4>REACT</h4>
+            </div>
+            <div class="big" data-aos="fade-up">
+                <div>
+                    <div class="img">
+                        <img src="img/pngwing.com.png" alt="nodejs" height="80px">
+                    </div>
+                    <div class="process">68%</div>
+                </div>
+                <h4>NODE js</h4>
+            </div>
+            <div class="big" data-aos="fade-down">
+                <div>
+                    <div class="img">
+                        <img src="img/pngwing.com (2).png" alt="expressjs" height="80px">
+                    </div>
+                    <div class="process">71%</div>
+                </div>
+                <h4>EXPRESS js</h4>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="page6">
+        <button class="nego" data-aos="fade-up"> <i class="fa fa-puzzle-piece fa-2x"></i> Projects </button>
+        <h1 data-aos="fade-up">Featured <span>Projects</span></h1>
+        <div class="flexx">
+            <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="VwENPQq" data-preview="false"
+                data-user="ABHINASH-the-bold"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/ABHINASH-the-bold/pen/VwENPQq">
+                        037 - Carousel</a> by ABHINASH (<a
+                        href="https://codepen.io/ABHINASH-the-bold">@ABHINASH-the-bold</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>br
+            <br><br><br><br>
+            <p class="codepen" data-height="420" data-default-tab="result" data-slug-hash="jOmaBQK"
+                data-user="gayane-gasparyan"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/gayane-gasparyan/pen/jOmaBQK">
+                        Magic Card</a> by Gayane Gasparyan (<a href="https://codepen.io/gayane-gasparyan">@abhinash</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script><br><br><br><br>
+            <br>
+            <p class="codepen" data-height="400" data-default-tab="result" data-slug-hash="LYgjpYZ" data-user="jh3y"
+                style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+                <span>See the Pen <a href="https://codepen.io/jh3y/pen/LYgjpYZ">
+                        Night &amp;&amp; Day Toggle ☀️/🌙 [Completed It!]</a> by Jhey (<a
+                        href="https://codepen.io/jh3y">@jh3y</a>)
+                    on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    </section>
+    <section id="review" class="page7">
+        <button class="nego" data-aos="fade-up"> <i class="fa fa-codepen fa-2x"></i> Review </button>
+        <h1 data-aos="fade-up">Tested by <span>Hundered Clients</span></h1>
+
+        <div class="slides">
+            <div class="s-item">
+                <div><img src="img/avatar1.jpeg" alt=""></div>
+                <div>
+                    <h1>Shweta Tiwari</h1>
+                    <h4>CEO of <Span style="color: chartreuse;">IBM Global</Span></h4>
+                </div>
+                <div>
+                    <p>"Abhi - A Developer with the creativity, professional and master of code. Much more than what i'm
+                        expect. High quality product & flexible price. Recommended!."</p>
+                    <h5>PROJECT</h5>
+                </div>
+            </div>
+            <div class="s-item">
+                <div><img src="img/portrait-white-man-isolated_53876-40306.avif" alt=""></div>
+                <div>
+                    <h1>Ankush Rana</h1>
+                    <h4>Manager of <Span style="color: chartreuse;">InfoSYS</Span></h4>
+                </div>
+                <div>
+                    <p>"Abhi was a real pleasure to work with and we look forward to working with him again. He's
+                        definitely the kind of designer that you can trust with any project from A-Z."</p>
+                    <h5>PROJECT</h5>
+                </div>
+            </div>
+            <div class="s-item">
+                <div><img src="img/avatar2.jpeg" alt=""></div>
+                <div>
+                    <h1>Abhay krishna</h1>
+                    <h4>Director of <Span style="color: chartreuse;">Flipkart</Span></h4>
+                </div>
+                <div>
+                    <p>"Extremely professional and fast sercice!. Abhi is a master of code and he also very creative .
+                        We done 3 projects with him and certain will continue."</p>
+                    <h5>PROJECT</h5>
+                </div>
+            </div>
+
+
+
+        </div>
+        <h4 data-aos="fade-up">WORK WITH 60+ BRANDS WORLDWIDE</h4>
+        <div class="c-flex">
+            <img src="img/client-4.png" data-aos="fade-right" class=".img">
+            <img src="img/client-2.png" data-aos="fade-up" class=".img">
+            <img src="img/client-3.png" data-aos="fade-down" class=".img">
+            <img src="img/company-1.png" data-aos="fade-left" class=".img">
+            <img src="img/client-8.png" data-aos="fade-right" class=".img">
+            <img src="img/client-5.png" data-aos="fade-left" class=".img">
+            <img src="img/client-6.png" data-aos="fade-up" class=".img">
+            <img src="img/client-7.png" data-aos="fade-down" class=".img">
+        </div>
+        <br><br><br><br><br>
+    </section>
+    <section id="pricing" class="page8">
+        <button class="nego" data-aos="fade-up"> <i class="fa fa-dollar fa-2x"></i> Pricing </button>
+        <h1 data-aos="fade-up">My <span>Pricing</span></h1>
+        <div class="cont-wrap">
+            <div class="container-p" data-aos="fade-right">
+                <div class="inner">
+                    <div>
+                        <h2>BASIC</h2>
+                        <h4>Have design ready to build? <br>
+                            or small budget</h4>
+                    </div>
+                    <div>
+                        <p><Span><b>$49</b></Span>/hours</p>
+                    </div>
+                </div>
+                <div class="inner-2">
+
+                    <p> Need your wireframe </p>
+                    <p> Design with figma,framer </p>
+                    <p> Implement with Webflow, React, Wordpress,Laravel/PHP </p>
+                    <p> Remote/Online </p>
+                    <p> Work in business days, no weekend. </p>
+                    <p> Support 6 months </p>
+                    <br><br><br><br><br>
+                    <button class="pick">PICK THIS PACKAGE</button>
+                </div>
+            </div>
+            <div class="container-p" data-aos="fade-left">
+                <div class="inner">
+                    <div>
+                        <h2>PREMIUM</h2>
+                        <h4>Not have any design? <br>
+                            Leave its for me</h4>
+                    </div>
+                    <div>
+                        <p><Span><b>$99</b></Span>/hours</p>
+                    </div>
+                </div>
+                <div class="inner-2">
+                    <p>Don't need wireframe or anything </p>
+                    <p>Design with Figma, Framer from scratch </p>
+                    <p>Implement with Webflow, React, WordPress, Laravel/PHP </p>
+                    <p>Remote/Online </p>
+                    <p>Work with both weekend </p>
+                    <p>Support 12 months </p>
+                    <p>Your project alway be priority </p>
+                    <p>Customer care gifts </p>
+
+                    <button class="pick">PICK THIS PACKAGE</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="page8" id="contact">
+        <button class="nego" data-aos="fade-up"> <i class="fa fa-phone fa-2x"></i> Contact </button>
+        <h1 data-aos="fade-up">Let's Work <span>Together!</span></h1>
+        <div>
+            <h2 style="color: rgb(255, 255, 255);padding-bottom: 8vh;filter: drop-shadow(0 0 12px chartreuse);"
+                data-aos="fade-right">hello@abhi.dev</h2>
+            <form data-aos="fade-right" autocomplete="off">
+                <div class="group">
+                    <div class="item-f"><label for="fn">FULL NAME <span style="color:red">*</span></label>
+                        <input id="fn" type="text" placeholder="Your Full Name">
+                    </div>
+                    <div class="item-f"><label for="email">EMAIL <span style="color:red">*</span></label>
+                        <input id="email" type="email" placeholder="Your Email">
+                    </div>
+                    <div class="item-f"><label for="phone">PHONE <span
+                                style="font-size: small; color:grey">(optional)</span></label>
+                        <input id="phone" type="tel" pattern="[1-9]{10}" placeholder="Your phone number">
+                    </div>
+                    <div class="item-f"><label for="sub">SUBJECT <span style="color:red">*</span></label>
+                        <input id="sub" type="text" placeholder="Select a Subject">
+                    </div>
+                    <div class="item-fi"><label for="budget">YOUR BUDGET <span
+                                style="font-size: small; color:grey">(optional)</span></label>
+                        <input id="budget" type="text" pattern="[1-9]" title="only numbers"
+                            placeholder="A range budget for your project">
+                    </div>
+                    <div class="item-fi"><label for="fn">Message</label>
+                        <input id="message" type="text" placeholder="Write your message">
+                    </div>
+                    <div id="files"><label for="fn"><i class="fa fa-2x fa-upload"><input id="file"
+                                    type="file"></i></label>
+
+                    </div>
+
+                </div>
+                <input type="submit" class="item-s" value="Send Message">
+                <input type="reset" class="item-s">
+
+
+            </form>
+        </div>
+    </section>
+    <div class="loader"></div>
+    <div id="sidebar">
+        <ul>
+            <li><a href="#introduce"><i class="fa fa-home fa-2x"></i> &nbsp &nbsp Introduce</a></li>
+            <li><a href="#about"><i class="fa fa-user fa-2x"></i> &nbsp &nbsp &nbsp About</a></li>
+            <li><a href="#resume"><i class="fa fa-address-book fa-2x"></i> &nbsp &nbsp Resume</a></li>
+            <li><a href="#services"><i class="fa fa-address-card fa-2x"></i> &nbsp Services</a></li>
+            <li><a href="#skills"><i class="fa fa-snowflake-o fa-2x"></i> &nbsp &nbsp Skills</a></li>
+            <li><a href="#projects"><i class="fa fa-puzzle-piece fa-2x"></i> &nbsp &nbsp Projects</a></li>
+            <li><a href="#review"><i class="fa fa-codepen fa-2x"></i> &nbsp &nbsp Review</a></li>
+            <li><a href="#pricing"><i class="fa fa-dollar fa-2x"></i> &nbsp &nbsp &nbsp Pricing</a></li>
+            <li><a href="#contact"><i class="fa fa-phone fa-2x"></i> &nbsp &nbsp Contact</a></li>
+        </ul>
+    </div>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({
+        easing: 'zoom-out',
+        duration: 1700,
+        once: false,
+        disable:'mobile',
+    });
+    AOS.init();
+</script>
+<script>
+    function r() {
+        document.querySelector(".loader").style.display = "none";
+    }
+</script>
+
+</html>
