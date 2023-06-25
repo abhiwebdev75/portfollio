@@ -2574,7 +2574,6 @@ width: 100%;
 #video{
     min-width: 100%;
     height:300vh;
-    box-sizing: border-box;
     >video{
         transform: scale(1.4);
     }
