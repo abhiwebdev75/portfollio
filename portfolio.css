@@ -1830,7 +1830,7 @@ width: 100%;
         }
 }
 
-    @media  (min-width:427px) and (max-width:420px) {
+    @media  screen and (max-width:420px) {
     .page1 {
         position: relative;
         margin-top: 5vh;
