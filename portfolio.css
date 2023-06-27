@@ -2575,8 +2575,8 @@ width: 100%;
     padding-top:5%;
     
     >video{
-        transform: scale(1.8);
+        transform: scale(1.2);
          height:120%;
-         object-fit:fill;
+         object-fit:strech;
     }
 }
