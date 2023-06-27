@@ -357,7 +357,7 @@ width: 100%;
     }
 }
 
-@media screen and (max-width:429px){
+@media screen and (max-width:500px){
     header {
         font-size: 3vw;
         height: 40px;
@@ -2054,7 +2054,7 @@ width: 100%;
         }
 }
 
-    @media  screen and (max-width:420px) {
+    @media  screen and (max-width:500px) {
    
     .page4 {
         position: relative;
