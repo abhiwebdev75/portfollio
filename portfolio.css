@@ -2575,5 +2575,7 @@ width: 100%;
     margin-top:5vh;
     >video{
         transform: scale(1.4);
+         height:100vh;
+         object-fit:fill;
     }
 }
