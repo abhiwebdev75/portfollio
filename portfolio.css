@@ -631,7 +631,7 @@ width: 100%;
         margin-left: 20px;
 
         >h1 {
-            color: var(--color);
+            color: red;
             font-size: 10vw;
             font-family: 'Courier New', Courier, monospace;
         }
