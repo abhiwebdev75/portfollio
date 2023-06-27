@@ -2571,7 +2571,7 @@ width: 100%;
 }
 #video{
     min-width: 100%;
-    height:100vh;
+    height:200vh;
     margin-top:5vh;
     >video{
         transform: scale(1.4);
