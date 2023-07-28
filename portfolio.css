@@ -348,6 +348,7 @@ width: 100%;
     position: relative;
     border-radius: 20px;
     background-color: var(--color);
+    bottom:10px;
 
     &:hover {
         background-color: transparent;
